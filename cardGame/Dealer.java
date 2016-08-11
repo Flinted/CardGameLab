@@ -1,4 +1,7 @@
 package cardgame;
+import interfaces.*;
+import java.util.*;
+
 
 public class Dealer{
 
@@ -9,6 +12,6 @@ public class Dealer{
   }
 
   public void shuffle(){
-    
+    this.deck.shuffle();
   }
 }

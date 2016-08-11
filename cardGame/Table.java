@@ -1,11 +1,13 @@
 package cardgame;
+import interfaces.*;
+import java.util.*;
 
 public class Table{
   private ArrayList<Player> players;
   private Dealer dealer;
   private ArrayList<Card> tableCards;
   private ArrayList<Card> burnCards;
-  private RuleSet rules;
+  private Ruleset rules;
 
   public Table(Dealer dealer, Ruleset ruleset){
       this.dealer = dealer;

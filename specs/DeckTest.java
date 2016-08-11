@@ -1,4 +1,4 @@
 import static org.junit.Assert.*;
 import org.junit.*;
 import cardgame.*;
-import interfaces.*:
+import interfaces.*;
