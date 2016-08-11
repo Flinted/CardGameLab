@@ -8,5 +8,22 @@ public class Player{
 
   public Player(String name){
     this.name = name;
+    this.hand = new ArrayList<Card>();
+  }
+
+  public String getName(){
+    return this.name;
+  }
+
+  public int cardCount(){
+    if(hand == null){ 
+      return 0;
+    }else{
+      return hand.size();
+    }
+  }
+
+  public void getCard(Card card){
+    hand.add(card);
   }
 }

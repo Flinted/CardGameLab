@@ -11,4 +11,7 @@ public class Card{
     this.value= value;
   }
 
+  public String getCard(){
+    return this.value + " of " + this.suit;
+  }
 }

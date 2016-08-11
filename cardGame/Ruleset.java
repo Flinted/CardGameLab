@@ -14,19 +14,19 @@ public class Ruleset{
     suits.add("Spades");
     suits.add("Clubs");
     this.values = new ArrayList<String>();
-    suits.add("2");
-    suits.add("3");
-    suits.add("4");
-    suits.add("5");
-    suits.add("6");
-    suits.add("7");
-    suits.add("8");
-    suits.add("9");
-    suits.add("10");
-    suits.add("Jack");
-    suits.add("Queen");
-    suits.add("King");
-    suits.add("Ace");
+    values.add("2");
+    values.add("3");
+    values.add("4");
+    values.add("5");
+    values.add("6");
+    values.add("7");
+    values.add("8");
+    values.add("9");
+    values.add("10");
+    values.add("Jack");
+    values.add("Queen");
+    values.add("King");
+    values.add("Ace");
   }
 
   public ArrayList<String> getSuits(){
